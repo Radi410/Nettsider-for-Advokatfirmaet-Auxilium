@@ -331,7 +331,7 @@ export function ResourcesPage() {
             Ressurser og veiledninger
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Nyttig informasjon om utlendingsrett, veiledninger
+            Nyttig informasjon, veiledninger
             og svar på ofte stilte spørsmål
           </p>
         </div>

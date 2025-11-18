@@ -153,7 +153,7 @@ export function ServicesPage({ onOpenContact, onServiceClick }: ServicesPageProp
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-sky-700 to-blue-800">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-sky-700 to-sky-800">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-white mb-6">Usikker på hvilket fagområde du trenger?</h2>
           <p className="text-xl text-sky-50 mb-8">
