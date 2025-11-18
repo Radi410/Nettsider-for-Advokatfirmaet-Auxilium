@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Custom color palette matching Auxilium brand */
+:root {
+  --color-primary: #003d5c; /* Dark navy blue from logo */
+  --color-primary-dark: #002a40;
+  --color-primary-light: #005580;
+  --color-accent: #0369a1; /* Sky blue for accents */
+}
