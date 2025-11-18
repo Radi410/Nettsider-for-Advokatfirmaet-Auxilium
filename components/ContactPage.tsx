@@ -5,7 +5,7 @@ export function ContactPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-emerald-50 to-teal-50 py-20 px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-gradient-to-br from-sky-50 to-teal-50 py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-gray-900 mb-6">Kontakt oss</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -24,12 +24,12 @@ export function ContactPage() {
               
               <div className="space-y-6 mb-8">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Phone className="text-emerald-600" size={24} />
+                  <div className="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Phone className="text-sky-600" size={24} />
                   </div>
                   <div>
                     <div className="text-sm text-gray-500 mb-1">Telefon</div>
-                    <a href="tel:+4712345678" className="text-gray-900 hover:text-emerald-600 transition-colors">
+                    <a href="tel:+4712345678" className="text-gray-900 hover:text-sky-600 transition-colors">
                       +47 123 45 678
                     </a>
                     <p className="text-sm text-gray-600 mt-1">
@@ -39,12 +39,12 @@ export function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Mail className="text-emerald-600" size={24} />
+                  <div className="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Mail className="text-sky-600" size={24} />
                   </div>
                   <div>
                     <div className="text-sm text-gray-500 mb-1">E-post</div>
-                    <a href="mailto:post@auxi.no" className="text-gray-900 hover:text-emerald-600 transition-colors">
+                    <a href="mailto:post@auxi.no" className="text-gray-900 hover:text-sky-600 transition-colors">
                       post@auxi.no
                     </a>
                     <p className="text-sm text-gray-600 mt-1">
@@ -54,8 +54,8 @@ export function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MapPin className="text-emerald-600" size={24} />
+                  <div className="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <MapPin className="text-sky-600" size={24} />
                   </div>
                   <div>
                     <div className="text-sm text-gray-500 mb-1">Adresse</div>
@@ -68,8 +68,8 @@ export function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Clock className="text-emerald-600" size={24} />
+                  <div className="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Clock className="text-sky-600" size={24} />
                   </div>
                   <div>
                     <div className="text-sm text-gray-500 mb-1">Åpningstider</div>
@@ -91,12 +91,12 @@ export function ContactPage() {
               </div>
 
               {/* Quick Response Promise */}
-              <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-6">
+              <div className="bg-sky-50 border border-sky-200 rounded-xl p-6">
                 <div className="flex items-start space-x-3">
-                  <MessageCircle className="text-emerald-600 flex-shrink-0 mt-0.5" size={24} />
+                  <MessageCircle className="text-sky-600 flex-shrink-0 mt-0.5" size={24} />
                   <div>
-                    <h3 className="text-emerald-900 mb-2">Rask respons garantert</h3>
-                    <p className="text-sm text-emerald-800">
+                    <h3 className="text-sky-900 mb-2">Rask respons garantert</h3>
+                    <p className="text-sm text-sky-800">
                       Vi svarer på alle henvendelser innen 24 timer på hverdager. 
                       Har du en hastesak? Ring oss direkte.
                     </p>
@@ -142,40 +142,40 @@ export function ContactPage() {
 
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="bg-white p-6 rounded-xl border border-gray-100 text-center">
-              <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Phone className="text-emerald-600" size={28} />
+              <div className="w-16 h-16 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Phone className="text-sky-600" size={28} />
               </div>
               <h3 className="text-gray-900 mb-2">Book telefonmøte</h3>
               <p className="text-sm text-gray-600 mb-4">
                 Foretrekker du et telefonmøte? Vi ringer deg på et tidspunkt som passer deg.
               </p>
-              <button className="text-emerald-600 hover:text-emerald-700 transition-colors">
+              <button className="text-sky-600 hover:text-sky-700 transition-colors">
                 Book nå
               </button>
             </div>
 
             <div className="bg-white p-6 rounded-xl border border-gray-100 text-center">
-              <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <MessageCircle className="text-emerald-600" size={28} />
+              <div className="w-16 h-16 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <MessageCircle className="text-sky-600" size={28} />
               </div>
               <h3 className="text-gray-900 mb-2">Videomøte</h3>
               <p className="text-sm text-gray-600 mb-4">
                 Vi tilbyr digitale møter via Teams eller Zoom hvis det passer deg bedre.
               </p>
-              <button className="text-emerald-600 hover:text-emerald-700 transition-colors">
+              <button className="text-sky-600 hover:text-sky-700 transition-colors">
                 Avtal videomøte
               </button>
             </div>
 
             <div className="bg-white p-6 rounded-xl border border-gray-100 text-center">
-              <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <MapPin className="text-emerald-600" size={28} />
+              <div className="w-16 h-16 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <MapPin className="text-sky-600" size={28} />
               </div>
               <h3 className="text-gray-900 mb-2">Besøk vårt kontor</h3>
               <p className="text-sm text-gray-600 mb-4">
                 Ønsker du å møte oss personlig? Book et møte på vårt kontor i Oslo sentrum.
               </p>
-              <button className="text-emerald-600 hover:text-emerald-700 transition-colors">
+              <button className="text-sky-600 hover:text-sky-700 transition-colors">
                 Book fysisk møte
               </button>
             </div>
