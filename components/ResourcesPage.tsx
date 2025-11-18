@@ -9,7 +9,7 @@ import {
   Search,
 } from "lucide-react";
 import { useState } from "react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+
 
 export function ResourcesPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -402,10 +402,10 @@ export function ResourcesPage() {
                   className="bg-gray-50 rounded-xl overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow group"
                 >
                   <div className="h-48 overflow-hidden">
-                    <ImageWithFallback
+                    <img
                       src={article.image}
                       alt={article.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                     />
                   </div>
                   <div className="p-6">

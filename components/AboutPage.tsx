@@ -10,7 +10,7 @@ import {
   Scale,
   Shield,
 } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+
 
 interface AboutPageProps {
   onOpenContact: () => void;
@@ -171,10 +171,10 @@ export function AboutPage({ onOpenContact }: AboutPageProps) {
             </div>
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-xl">
-                <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1676277757211-ebd7fdeb3d5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwdGVhbSUyMG1lZXRpbmd8ZW58MXx8fHwxNzYzMjM5MzM3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                  alt="Auxilium team"
-                  className="w-full h-[400px] object-cover"
+                <img
+                  src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqZXJuJTIwYWR2b2thdHxlbnwwfHx8fDE3NjMyOTIwMjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  alt="Our Team"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
@@ -282,10 +282,10 @@ export function AboutPage({ onOpenContact }: AboutPageProps) {
                 className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100"
               >
                 <div className="h-64 overflow-hidden">
-                  <ImageWithFallback
+                  <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform"
                   />
                 </div>
                 <div className="p-6">

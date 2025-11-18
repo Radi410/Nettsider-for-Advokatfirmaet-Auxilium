@@ -9,7 +9,7 @@ import {
   MessageCircle,
   Clock,
 } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+
 
 interface HomePageProps {
   onNavigate: (
@@ -108,7 +108,7 @@ export function HomePage({
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-sky-50 via-blue-50 to-white py-2 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-sky-50 via-blue-50 to-white py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 right-0 w-96 h-96 bg-sky-400 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-400 rounded-full blur-3xl"></div>
@@ -174,10 +174,10 @@ export function HomePage({
 
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-2xl">
-                <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1758518731462-d091b0b4ed0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBsYXd5ZXIlMjBvZmZpY2V8ZW58MXx8fHwxNzYzMjQ5NDYxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                  alt="Advokatfirmaet Auxilium kontor"
-                  className="w-full h-[500px] object-cover"
+                <img
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqZXJuJTIwYWR2b2thdHxlbnwwfHx8fDE3NjMyOTIwMjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  alt="Lawyer Consultation"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl border border-gray-100">

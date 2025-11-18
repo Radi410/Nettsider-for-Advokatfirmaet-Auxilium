@@ -5,7 +5,7 @@ import {
   ArrowRight,
   Phone,
 } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+
 
 interface ServiceDetailPageProps {
   serviceId: string;
@@ -764,10 +764,10 @@ export function ServiceDetailPage({
               </button>
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
-              <ImageWithFallback
+              <img
                 src={service.image}
                 alt={service.title}
-                className="w-full h-[400px] object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>

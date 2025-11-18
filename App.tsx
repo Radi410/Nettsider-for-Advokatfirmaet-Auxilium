@@ -20,7 +20,8 @@ import { PricingPage } from "./components/PricingPage";
 import { ContactPage } from "./components/ContactPage";
 import { ResourcesPage } from "./components/ResourcesPage";
 import { ContactForm } from "./components/ContactForm";
-import logo from "figma:asset/ee7f87e7fbe3925602b1f625306c61a53b99f34b.png";
+import '/styles/globals.css'
+
 
 type Page =
   | "hjem"
