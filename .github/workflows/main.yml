@@ -4,25 +4,29 @@ on:
   push:
     branches: [ main ]
 
+# LEGG TIL DETTE!
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest  # Bruker Linux, så ingen Windows-problem
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4  # Oppgrader til v4 (nyere)
     
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4  # Oppgrader til v4
       with:
-        node-version: '18'
+        node-version: '20'
         
     - name: Install dependencies
-      run: |
-        npm install
-        chmod +x node_modules/.bin/vite
-
+      run: npm install
+    
     - name: Build
       run: npm run build
-      
+    
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
