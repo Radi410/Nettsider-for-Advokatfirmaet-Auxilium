@@ -6,10 +6,9 @@ Dette er et moderne, dynamisk nettsted utviklet for **Advokatfirmaet Auxilium** 
 
 ### Før & Etter
 
-| Før (Gammel nettside) | Etter (Ny design) |
-|-----------------------|-------------------|
-| ![Gammel nettside]<img width="2880" height="5476" alt="screencapture-auxi-no-2025-11-18-03_46_08" src="https://github.com/user-attachments/assets/1d1443af-f528-4a29-b49a-0117bb140aee" />
-| Statisk design, treg lasting, ikke-mobilvennlig | Dynamisk, rask, responsiv, moderne UI |
+
+ ![Gammel nettside]<img width="2880" height="5476" alt="screencapture-auxi-no-2025-11-18-03_46_08" src="https://github.com/user-attachments/assets/1d1443af-f528-4a29-b49a-0117bb140aee" />
+ Statisk design, treg lasting, ikke-mobilvennlig | Dynamisk, rask, responsiv, moderne UI |
 
 ** Live Demo:** [https://radi410.github.io/Nettsider-for-Advokatfirmaet-Auxilium/](https://radi410.github.io/Nettsider-for-Advokatfirmaet-Auxilium/)
 
